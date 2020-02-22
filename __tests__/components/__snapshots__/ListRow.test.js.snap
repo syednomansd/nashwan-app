@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly empty component 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 50,
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#858585",
+        "fontSize": 12,
+        "width": 24,
+      }
+    }
+  >
+    )
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#efefef",
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 12,
+          "width": 32,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "https://cryptoicons.org/api/icon//200",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "height": 44,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+         - 
+        <Text
+          style={
+            Object {
+              "color": "#747474",
+              "fontSize": 14,
+            }
+          }
+        >
+          
+        </Text>
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders with data 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "height": 50,
+      "paddingHorizontal": 16,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#858585",
+        "fontSize": 12,
+        "width": 24,
+      }
+    }
+  >
+    22
+    )
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#efefef",
+          "borderRadius": 16,
+          "height": 32,
+          "marginRight": 12,
+          "width": 32,
+        },
+      ]
+    }
+  >
+    <FastImageView
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "https://cryptoicons.org/api/icon/btc/200",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "height": 44,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        Bitcoin
+         - 
+        <Text
+          style={
+            Object {
+              "color": "#747474",
+              "fontSize": 14,
+            }
+          }
+        >
+          BTC
+        </Text>
+      </Text>
+      <Text
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "500",
+          }
+        }
+      >
+        333.22
+      </Text>
+    </View>
+  </View>
+</View>
+`;
