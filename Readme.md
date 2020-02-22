@@ -35,7 +35,7 @@ yarn run test
 
 ## Documentation
 
-- [**Requirement Guide to `Nashwan app`**](docs/doc.pdf): A requirement for this project.
+- [**Requirement Guide to `Nashwan app`**](doc/doc.pdf): A requirement for this project.
 
 ## Technology stack
 
